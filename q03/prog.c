@@ -41,6 +41,8 @@ int main(void){
     a.media = media(a.matriz, a.qtd);
 
     printf("\nMédia = %.2f.\n\n", a.media);
+    
+    free(a.matriz);
 
     return 0;
 }
